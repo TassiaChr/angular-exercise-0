@@ -1,0 +1,7 @@
+<div class="border border-2 border-primary p-3">
+    <div>
+        <h3>Γράψτε μια λέξη:</h3>
+        <input (input)="onUserInput($event)" [value]="userInput" class="form-control">
+        <button (click)="onSubmitButtonClick(userInput)" class="btn btn-primary mt-3">Υποβολή</button>
+      </div>
+</div>
